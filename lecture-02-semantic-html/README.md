@@ -46,11 +46,5 @@ I learned how to use semantic HTML5 elements properly and understand the differe
 ## 5. What I still need to improve
 
 I need to practice using more complex semantic elements and learn when to use article versus section in different scenarios. I want to improve my ability to write better alt text and understand more advanced ARIA attributes. I also need to learn about other semantic elements I haven't used yet and practice structuring more complex webpages.
+=
 
----
-
-## 6. Notes about AI usage (if any)
-
-- **Tool used:** Claude AI Assistant
-- **What I accepted as-is:** README structure, semantic element suggestions, accessibility recommendations
-- **What I modified manually:** Personal information, project descriptions, areas of interest, GitHub links, and customized all content to reflect my actual work and learning
