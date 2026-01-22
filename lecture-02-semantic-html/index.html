@@ -2,52 +2,103 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My Semantic Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Abdelhamid - Portfolio</title>
 </head>
 <body>
 
-    <a href="#main">Skip to content</a>
+    <nav aria-label="Skip navigation">
+        <a href="#main">Skip to content</a>
+    </nav>
 
     <header>
         <h1>Ahmed Abdelhamid</h1>
         <p>
             Role: Computer Science Student <br>
-            Location: Kuopio <br>
-            Bio: I am learning web development and semantic HTML.
+            Degree Program: Bachelor of Engineering, Information Technology <br>
+            Location: Kuopio, Finland <br>
+            Bio: I am a passionate computer science student learning web development, semantic HTML, and modern programming practices. I enjoy building accessible and user-friendly web applications.
         </p>
     </header>
 
     <main id="main">
         
-        <section>
-            <h2>My Portfolio</h2>
+        <section aria-labelledby="portfolio-heading">
+            <h2 id="portfolio-heading">My Portfolio</h2>
             
             <figure>
-                <img src="https://via.placeholder.com/150" alt="Description of my web project">
-                <figcaption>My first web project screenshot.</figcaption>
+                <img src="https://via.placeholder.com/300x200/4A90E2/ffffff?text=Web+Project+1" alt="Screenshot of my first web development project showing a responsive homepage">
+                <figcaption>My first web project - A responsive portfolio homepage using semantic HTML5.</figcaption>
             </figure>
 
-            <p>Check my code on: <a href="https://github.com/your-username">GitHub</a></p>
+            <figure>
+                <img src="https://via.placeholder.com/300x200/E94B3C/ffffff?text=Python+App" alt="Screenshot of a Python application with graphical user interface">
+                <figcaption>Python GUI application for data analysis and visualization.</figcaption>
+            </figure>
 
-            <p>Project Demo:</p>
-            <iframe width="400" height="225" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Demo Video"></iframe>
+            <figure>
+                <img src="https://via.placeholder.com/300x200/6AB04C/ffffff?text=JavaScript+Game" alt="Screenshot of an interactive JavaScript game">
+                <figcaption>Interactive browser-based game built with vanilla JavaScript.</figcaption>
+            </figure>
+
+            <p>Check out my code repositories on: <a href="https://github.com/AhmedAbdelhamidd" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+
+            <h3>Project Demo Video</h3>
+            <figure>
+                <iframe 
+                    width="560" 
+                    height="315" 
+                    src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+                    title="Portfolio Project Demo Video"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+                <figcaption>Video demonstration of my latest web development project.</figcaption>
+            </figure>
         </section>
 
-        <section>
-            <h2>Areas of Interest</h2>
+        <section aria-labelledby="interests-heading">
+            <h2 id="interests-heading">Areas of Interest</h2>
             <ul>
-                <li>Web Development (Frontend)</li>
-                <li>Artificial Intelligence</li>
-                <li>Problem Solving</li>
+                <li>Web Development (Frontend & Backend)</li>
+                <li>Artificial Intelligence and Machine Learning</li>
+                <li>User Experience (UX) Design</li>
+                <li>Problem Solving and Algorithms</li>
+                <li>Open Source Contribution</li>
+                <li>Mobile Application Development</li>
             </ul>
+        </section>
+
+        <section aria-labelledby="education-heading">
+            <h2 id="education-heading">Education & Skills</h2>
+            <article>
+                <h3>Currently Studying</h3>
+                <p>Bachelor of Engineering in Information Technology at Savonia University of Applied Sciences, focusing on browser programming, semantic web technologies, and modern development practices.</p>
+            </article>
+            
+            <article>
+                <h3>Technical Skills</h3>
+                <ul>
+                    <li>HTML5 & Semantic Web</li>
+                    <li>Programming: Python, JavaScript</li>
+                    <li>Version Control: Git & GitHub</li>
+                    <li>Accessibility Standards (WCAG)</li>
+                </ul>
+            </article>
         </section>
 
     </main>
 
     <footer>
-        <p>Connect with me:</p>
-        <a href="https://linkedin.com/in/yourprofile">LinkedIn</a> | 
-        <a href="https://github.com/your-username">GitHub</a>
+        <address>
+            <p>Connect with me:</p>
+            <ul>
+                <li><a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                <li><a href="https://github.com/AhmedAbdelhamidd" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                <li><a href="mailto:your.email@example.com">Email Me</a></li>
+            </ul>
+        </address>
+        <p><small>&copy; 2026 Ahmed Abdelhamid. All rights reserved.</small></p>
     </footer>
 
 </body>
