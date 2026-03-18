@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Report</title>
+    <link rel="stylesheet" href="exercise.css">
+</head>
+<body>
+    <a href="#main" class="skip-link">Skip to content</a>
+
+    <header>
+        <h1>User Report</h1>
+        <p>
+            <strong>Source:</strong> JSONPlaceholder API <br>
+            <strong>Description:</strong> Fetches and displays a list of users from a public REST API.
+        </p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Back to Portfolio</a></li>
+        </ul>
+    </nav>
+
+    <main id="main">
+        <section>
+            <h2>Users</h2>
+            <p>Click the button to load users from the API.</p>
+
+            <div class="interaction-demo">
+                <button id="btnLoadUsers" class="counter-btn">Load Users</button>
+            </div>
+
+            <ul id="userList"></ul>
+
+            <pre id="output"></pre>
+        </section>
+    </main>
+
+    <footer>
+        <p>Data from <a href="https://jsonplaceholder.typicode.com/users" target="_blank">JSONPlaceholder</a></p>
+        <p><small>&copy; 2026 Ahmed Abdelhamid</small></p>
+    </footer>
+
+    <script src="exercise.js"></script>
+</body>
+</html>
