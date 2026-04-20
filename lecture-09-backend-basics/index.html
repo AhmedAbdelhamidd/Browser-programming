@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Backend API Test</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 600px; margin: 40px auto; padding: 20px; }
+        button { background: #2c3e50; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; margin: 5px; }
+        button:hover { background: #f39c12; }
+        .box { background: #f9f9f9; padding: 20px; border-radius: 8px; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <h1>Backend API Test</h1>
+    <button onclick="getMessage()">Get Message</button>
+    <button onclick="getStudent()">Get Student Info</button>
+    <div class="box">
+        <p id="loading"></p>
+        <p><strong>Message:</strong> <span id="message">-</span></p>
+        <p><strong>Course:</strong> <span id="course">-</span></p>
+        <p><strong>Year:</strong> <span id="year">-</span></p>
+    </div>
+    <div class="box">
+        <p><strong>Student Name:</strong> <span id="studentName">-</span></p>
+        <p><strong>Role:</strong> <span id="studentRole">-</span></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
